@@ -1,2 +1,4 @@
 great_tables
+jupyter
 polars
+quarto

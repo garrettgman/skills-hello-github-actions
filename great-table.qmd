@@ -1,10 +1,11 @@
 ---
-title: "Great table"
 format: html
 jupyter: python3
 ---
 
 ```{python}
+#| echo: false
+
 from great_tables import GT, html
 from great_tables.data import sza
 import polars as pl

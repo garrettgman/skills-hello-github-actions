@@ -1,3 +1,10 @@
+---
+title: "Great table"
+format: html
+jupyter: python3
+---
+
+```{python}
 import polars as pl
 import polars.selectors as cs
 from great_tables import GT, loc, style
@@ -50,3 +57,4 @@ coffee_table = (
 )
 
 coffee_table
+```
